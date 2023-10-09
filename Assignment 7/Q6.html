@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of numbers from M to N</title>
+    <script type="text/javascript">
+        let m= parseInt(prompt("enter upper Range: "));
+        let n= parseInt(prompt("Enter Lower Limit:"));
+        let x=0;
+        if(m<n)
+        {
+            window.alert("ERROR!!!!");
+        }
+        else{
+
+            for(let i=n;i<=m;i++)
+            {
+                x+=i;
+            }
+            document.write("The sum of the numbers from \t" + n + "\tto\t" + m + "\tis\t" +x );
+        }
+        </script>
+</head>
+</html>
