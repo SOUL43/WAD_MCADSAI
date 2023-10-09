@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI and CI</title>
+    <script type="text/javascript">
+        let P= parseInt(prompt("Enter the principal Amount: "));
+        let R= parseInt(prompt("Enter the rate of interest:"));
+        let T= parseInt(prompt("Enter the time: "));
+        let SI= (P*R*T)/100;
+        let CI= (P*Math.pow(1+R/100),1/T);
+        window.alert("Simple Interest =\t" +SI);
+        window.alert("Compound interest=\t" +CI);5
+        </script>
+</head>
+</html>

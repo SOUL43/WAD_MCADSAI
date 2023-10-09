@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabonacci Series using for loop</title>
+    <script type="text/javascript">
+    const a= parseInt(prompt('enter the number of terms:'));
+    let x=0,y=1;
+    document.write(x+"\t");
+    document.write(y+"\t");
+    for(let i=1;i<=a-2;i++)
+    { let z=x+y;
+        x=y;
+        y=z;
+        document.write(z+" ");
+}
+</script>
+</head>
+</html>
